@@ -211,7 +211,7 @@ This implementation demonstrates:
 **Instructor:** Dr. Stefan Heindorf  
 **Institution:** Paderborn University  
 **Strategy:** Strategy 1 - Explainability methods for GNNs  
-**Dataset:** AIFB (Research Group Affiliation Prediction) 
+**Dataset:** AIFB (Research Group Affiliation Prediction)
 **Contributor's:** Faheem Ahmad (4053820)
                    Umair Shahnawaz Shaikh (4081870)
                    Pankaj Kumar (4081792)
