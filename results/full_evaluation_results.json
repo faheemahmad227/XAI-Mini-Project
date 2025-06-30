@@ -1,0 +1,88 @@
+{
+  "overall_performance": {
+    "test_accuracy": 0.9166666666666666,
+    "training_accuracy": 1.0,
+    "macro_f1": 0.9115159034513873,
+    "weighted_f1": 0.9177945710203775,
+    "class_breakdown": {}
+  },
+  "confusion_matrix": [
+    [
+      15,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      5,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      10,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      3
+    ]
+  ],
+  "class_names": [
+    "Group 1 (id1)",
+    "Group 2 (id2)",
+    "Group 3 (id3)",
+    "Group 4 (id4)"
+  ],
+  "error_breakdown": {
+    "total_samples": 36,
+    "got_right": 33,
+    "got_wrong": 3,
+    "error_rate": 0.08333333333333333
+  },
+  "confidence_stats": {
+    "avg_confidence": 0.9164693355560303,
+    "confidence_std": 0.15414996445178986,
+    "lowest_confidence": 0.43171897530555725,
+    "highest_confidence": 1.0
+  },
+  "vs_competition": {
+    "our_scores": {
+      "accuracy": 0.9166666666666666,
+      "precision": 0.9263392857142857,
+      "recall": 0.9166666666666666,
+      "f1": 0.9177945710203775
+    },
+    "other_methods": {
+      "CELOE": {
+        "accuracy": 0.722,
+        "precision": 0.647,
+        "recall": 0.733,
+        "f1": 0.688
+      },
+      "EvoLearner": {
+        "accuracy": 0.65,
+        "precision": 0.546,
+        "recall": 0.973,
+        "f1": 0.699
+      },
+      "PGExplainer": {
+        "accuracy": 0.861,
+        "precision": 0.797,
+        "recall": 0.92,
+        "f1": 0.849
+      },
+      "SubGraphX": {
+        "accuracy": 0.8,
+        "precision": 0.746,
+        "recall": 0.853,
+        "f1": 0.784
+      }
+    },
+    "ranking": 1
+  }
+}
