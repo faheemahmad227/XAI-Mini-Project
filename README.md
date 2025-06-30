@@ -148,17 +148,17 @@ Our comprehensive interpretability analysis reveals:
 1. Open the notebook in Google Colab
 2. Run all cells sequentially
 3. Upload the 4 dataset files when prompted
-4. Wait for completion (~30 minutes)
+4. Wait for completion (~15 minutes)
 
 ### Detailed Execution Steps
-1. **Environment Setup** (2 minutes) - Automatic dependency installation
-2. **Dataset Upload** (1 minute) - Upload 4 required files
-3. **Data Analysis** (3 minutes) - RDF graph exploration and statistics
-4. **Graph Construction** (2 minutes) - Convert to PyTorch Geometric format
-5. **Model Training** (18 seconds) - R-GCN training with early stopping
-6. **Model Evaluation** (2 minutes) - Comprehensive performance analysis
-7. **Interpretability Analysis** (5 minutes) - Node connectivity and confidence patterns
-8. **Results Generation** (1 minute) - Save all outputs and visualizations
+1. **Environment Setup** (~3 minutes) - Automatic dependency installation
+2. **Dataset Upload** (~1 minute) - Upload 4 required files
+3. **Data Analysis** (~3 minutes) - RDF graph exploration and statistics
+4. **Graph Construction** (~2 minutes) - Convert to PyTorch Geometric format
+5. **Model Training** (~18 seconds) - R-GCN training with early stopping
+6. **Model Evaluation** (~2 minutes) - Comprehensive performance analysis
+7. **Interpretability Analysis** (~1 minutes) - Node connectivity and confidence patterns
+8. **Results Generation** (~1 minute) - Save all outputs and visualizations
 
 ## Troubleshooting
 
@@ -203,7 +203,7 @@ This implementation demonstrates:
 - **Graph Library:** PyTorch Geometric
 - **Execution Environment:** Google Colab with GPU support
 - **Memory Requirements:** ~2GB GPU memory, ~4GB system RAM
-- **Execution Time:** ~30 minutes total
+- **Execution Time:** ~15 minutes total
 
 ## Team Information
 
@@ -211,7 +211,10 @@ This implementation demonstrates:
 **Instructor:** Dr. Stefan Heindorf  
 **Institution:** Paderborn University  
 **Strategy:** Strategy 1 - Explainability methods for GNNs  
-**Dataset:** AIFB (Research Group Affiliation Prediction)  
+**Dataset:** AIFB (Research Group Affiliation Prediction) 
+**Contributor's:** Faheem Ahmad (4053820)
+                   Umair Shahnawaz Shaikh (4081870)
+                   Pankaj Kumar (4081792)
 
 ## Contact & Support
 
