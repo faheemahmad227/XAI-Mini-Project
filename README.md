@@ -17,7 +17,7 @@ This project implements **Strategy 1: Explainability methods for GNNs** from the
 XAI-Mini-Project/
 ├── README.md                           # This documentation
 ├── requirements.txt                    # Python dependencies
-├── XAI_MiniProject_Complete.ipynb     # Main implementation notebook
+├── XAI_Mini_Project.ipynb     # Main implementation notebook
 ├── data/                              # Dataset files (upload to Colab)
 │   ├── aifbfixed_complete.n3          # RDF knowledge graph
 │   ├── trainingSet.tsv                # Training labels
